@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Aprendendo JavaScript</title>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Aprendendo JavaScript</h1>
+
+        <button onclick='window.location.href="https://sujeitoprogramador.com"; '>Ir ao SujeitoProgramador</button>
+
+        <button onclick="window.location.href='contato.html'">Ir para Contato</button>
+
+        <button onclick="window.location.reload()">Atualizar a Pagina</button>
+
+        <br>
+        <br>
+        <div id="area">
+            Bem vindo...
+        </div>
+        <br><br>
+        <button onclick="document.getElementById('area').innerHTML = 'Bem vindo ' + prompt('Qual seu nome?')">Entrar</button>
+
+        <br><br>
+
+        <button onclick="this.innerHTML= prompt('Qual o nome do botão')">Qual meu nome?</button>
+
+        <button onclick="entrar()">Entrar</button>
+
+
+        <div id = "area2">
+            Bem vindo
+
+        </div>
+        <br><br>
+        <button onclick="entrar2('Mysael')">Entrar</button>
+    </body>
+</html>
