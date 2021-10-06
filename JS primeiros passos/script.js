@@ -67,9 +67,7 @@ function acao(){
 
 //Executa de tempo em tempo!
 
-for(var i = 0; i<10; i++){
-    setTimeout(acao, 1000);
-}
+
 
 //setInterval(acao, 1000);
 // var timer = setInterval(acao, 1000);
