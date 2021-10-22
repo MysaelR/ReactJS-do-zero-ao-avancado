@@ -29,7 +29,7 @@ constructor(props){
       {id:1, username: 'Mysael', curtidas: 10, comentarios: 2},
       {id:2, username: 'Lucas', curtidas: 120, comentarios: 20},
       {id:3, username: 'Amanda', curtidas: 15, comentarios: 3},
-      {id:3, username: 'Ricardo', curtidas: 1, comentarios: 0}
+      {id:4, username: 'Ricardo', curtidas: 1, comentarios: 0}
     ]
   };
 }
